@@ -1,3 +1,9 @@
+import user from './data/user.json';
+
+
+import { Profile } from './Profile/profile';
+import { Container } from './App.styled';
+
 export const App = () => {
   return (
     <div
@@ -6,11 +12,19 @@ export const App = () => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        fontSize: 40,
+        // fontSize: 40,
         color: '#010101'
       }}
     >
-      React homework template
+       <Container>
+      <Profile
+        username={user.username}
+        tag={user.tag}
+        location={user.location}
+        avatar={user.avatar}
+        stats={user.stats}
+        />
+        </Container>
     </div>
   );
 };
