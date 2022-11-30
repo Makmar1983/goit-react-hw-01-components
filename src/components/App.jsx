@@ -1,5 +1,5 @@
-import user from './data/user.json';
-import data from './data/data.json';
+import user from 'data/user.json';
+import data from 'data/data.json';
 
 
 import { Container } from './App.styled';
@@ -8,16 +8,7 @@ import { Statistics } from 'components/Statistics/Statistics';
 
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        // fontSize: 40,
-        color: '#010101'
-      }}
-    >
+    
        <Container>
       <Profile
         username={user.username}
@@ -29,6 +20,6 @@ export const App = () => {
         <Statistics title="Upload stats" stats={data} />
 <Statistics stats={data} />
         </Container>
-    </div>
+   
   );
 };
