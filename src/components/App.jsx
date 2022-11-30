@@ -1,5 +1,5 @@
-import user from './data/user.json';
-import data from './data/data.json';
+import user from 'data/user.json';
+import data from 'data/data.json';
 
 
 import { Container } from './App.styled';
