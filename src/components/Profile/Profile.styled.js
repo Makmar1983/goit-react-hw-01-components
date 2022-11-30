@@ -44,7 +44,7 @@ export const Stats = styled.ul`
     height: 100%;
     border: 1px solid rgb(0 0 0 / 20%);
     &:hover {
-      background-color: rgba(0, 255, 187, 0.8);
+      background-color: rgba(0, 255, 027, 0.8);
     }
   }
 `;
@@ -52,7 +52,7 @@ export const Stats = styled.ul`
 export const Label = styled.span`
   display: block;
 `;
-
+  
 export const Quantity = styled.span`
   font-weight: 700;
 `;
