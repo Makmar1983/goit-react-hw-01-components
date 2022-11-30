@@ -1,7 +1,7 @@
-import user from './data/user.json';
+import user from 'data/user.json';
 
 
-import { Profile } from './Profile/profile';
+import { Profile } from 'components/Profile/Profile';
 import { Container } from './App.styled';
 
 export const App = () => {

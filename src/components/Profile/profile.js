@@ -9,7 +9,7 @@ import {
   Stats,
   Label,
   Quantity,
-} from './Profile.styled'
+} from './profile.styled'
 
 
 
