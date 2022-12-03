@@ -1,31 +1,21 @@
-import user from 'data/user.json';
-import data from 'data/data.json';
-import friends from 'data/friends.json';
-import transactions from 'data/transactions.json';
-
-import { Container } from './App.styled';
-import { Profile } from 'components/Profile/Profile';
-import { Statistics } from 'components/Statistics/Statistics';
-import { FriendList } from 'components/FriendList/FriendList';
-import { TransactionHistory } from 'components/TransactionHistory/TransactionHistory';
-
-export const App = () => {
-  return (
-    <Container>
-      <Profile
-        username={user.username}
-        tag={user.tag}
-        location={user.location}
-        avatar={user.avatar}
-        stats={user.stats}
-      />
-      
-      <Statistics title="Upload stats" stats={data} />
-      <Statistics stats={data} />
-
-      <FriendList friends={friends} />
-
-      <TransactionHistory transactions={transactions} />
-    </Container>
-  );
-};
+{
+  "name": "goit-react-hw-01-components",
+  "version": "0.1.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "goit-react-hw-01-components",
+      "version": "0.1.0",
+      "dependencies": {
+        "@emotion/react": "^11.9.0",
+        "@emotion/styled": "^11.8.1",
+        "@testing-library/jest-dom": "^5.16.3",
+        "@testing-library/react": "^12.1.4",
+        "@testing-library/user-event": "^13.5.0",
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0",
+        "react-scripts": "5.0.0",
+        "web-vitals": "^2.1.3"
+      }
+    },
